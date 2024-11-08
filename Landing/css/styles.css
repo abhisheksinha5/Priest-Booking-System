@@ -1,0 +1,204 @@
+body {
+  font-family: "Montserrat-Black";
+  text-align: center;
+  scroll-behavior: smooth;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Montserrat-bold";
+}
+
+p {
+  color: #8f8f8f;
+}
+
+
+/* Headings */
+.big-heading {
+  font-family: "Montserrat-Bold";
+  font-size: 3.5rem;
+  font-weight: bold;
+  line-height: 1.5;
+}
+
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Conatiners */
+.container-fluid {
+  padding: 7% 15%;
+}
+
+
+/* Section */
+.colored-section{
+  background-color: #4B8673;
+  color: #fff;
+}
+.white-section{
+  background-color: #fff;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 4.5rem;
+  background-color: #4B8673;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+
+/* Title */
+
+#title .container-fluid {
+  padding: 3% 15% 7%;
+    text-align: left;
+}
+
+.title-img {
+  width: 70%;
+  position: absolute;
+  top: 0.8%;
+  left: 25%;
+
+}
+.icon {
+  color: #90C8AC;
+
+  margin-bottom: 1rem;
+}
+.icon:hover {
+  color: #4B8673;
+}
+
+
+/* Download Buttons */
+.know-more-button {
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Feature Section */
+#features {
+  background-color: #fff;
+  position: relative;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+/* Testimonial Section */
+#testimonials {
+  background-color: #76BA99;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testomonial-text {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: bold;
+}
+#press {
+  background-color: #76BA99;
+  padding-bottom: 3%;
+}
+.press-logo {
+  width: 15%
+}
+
+/* achievements */
+#areas {
+  padding: 100px;
+}
+
+.achievements-column {
+  padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+
+/* Scroll-Back to Top */
+.top {
+  --offset: 50px;
+
+  position: sticky;
+  bottom: 20px;
+  margin-left:85%;
+  place-self: end;
+  margin-top: calc(100vh + var(--offset));
+
+  /* visual styling */
+  text-decoration: none;
+  padding: 10px;
+  font-family: sans-serif;
+  color: #fff;
+  background-color: #343a40;
+  border-radius: 100px;
+  white-space: nowrap;
+
+}
+.top:hover{
+  color: yellow;
+}
+
+
+/* Footer */
+footer {
+  background-color: #fff;
+  margin-top: 50px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #76BA99;
+}
+.social-icon:hover{
+  transform: scale(1.5);
+}
+
+#footer{
+  margin-top: 80px;
+}
+/* Media Responsive */
+@media (max-width:1024px) {
+  #title {
+    text-align: center;
+  }
+
+  .title-img {
+    position: relative;
+    top: 15%;
+    left: auto;
+    right: auto;
+  }
+}
