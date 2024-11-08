@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,500,700,900');
+* {
+margin: 0;
+padding: 0;
+}
+body {
+background: #f0f4f3;
+font-family: 'Roboto', sans-serif;
+}
+
+/* Navigation Bar */
+.navbar {
+  padding: 0 0 0;
+
+}
+
+.navbar-brand {
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+.nav-item {
+  padding: 0 18px;
+  font-size: 1.2rem;
+  font-family: "Montserrat-light";
+}
+/* Section */
+.colored-section{
+  background-color: #4B8673;
+  color: #fff;
+
+}
+#title .container-fluid {
+  padding: 1% 15% 1%;
+  text-align: left;
+}
+
+.container-fluid {
+  padding: 7% 10%;
+}
+
+
+#container {
+background: #ededed;
+border-radius: 10px;
+height: 550px;
+margin: 5% auto;
+overflow: hidden;
+width: 1000px;
+}
+
+.card{
+  display: inline-block;
+  margin-bottom: 40px;
+  margin-right: 10px;
+  margin-left: 10px;
+  }
+
+.card-title{
+  text-align: center;
+
+}
+
+
+.card-body{
+  background-color: #F1EEE9;
+}
+
+  * {
+    box-sizing: border-box;
+  }
+
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 12px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  #myUL {
+    list-style-type: none;
+    padding: 0 9%;
+    margin: 0;
+    margin-top: 2rem;
+  }
+
+  #myUL li a {
+    border: 1px solid #ddd;
+    margin-top: -1px; /* Prevent double borders */
+    background-color: #D3EBCD;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 18px;
+    color: black;
+    display: block
+  }
+
+  #myUL li a:hover:not(.header) {
+    background-color: #4B8673;
+  }
+
+  ul#myUL li{
+    display: inline;
+  }
+
+  .searchHeading{
+      padding: 30px 9.5%;
+  }
+
+
+
+
+/* For select_priest popup */
+/* Popup container - can be anything you want */
+.popup {
+  position: relative;
+  display: inline-block;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* The actual popup */
+.popup .popuptext {
+  visibility: hidden;
+  width: 160px;
+  background-color: #555;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 8px 0;
+  position: absolute;
+  z-index: 1;
+  bottom: 125%;
+  left: 50%;
+  margin-left: -80px;
+}
+
+/* Popup arrow */
+.popup .popuptext::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  margin-left: -5px;
+  border-width: 5px;
+  border-style: solid;
+  border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popup .show {
+  visibility: visible;
+  -webkit-animation: fadeIn 1s;
+  animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity: 1;}
+}
+
+@keyframes fadeIn {
+  from {opacity: 0;}
+  to {opacity:1 ;}
+}
